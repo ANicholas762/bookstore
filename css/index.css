@@ -1,0 +1,190 @@
+.hero {
+  position: absolute;
+  width: 1500px;
+  height: 530px;
+  background-color: cornflowerblue;
+  margin-left: 120px;
+  margin-top: 120px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(88, 124, 131, 0.6)), to(rgba(88, 124, 131, 0.6))), url(../images/home-hero.jpg);
+  background-image: linear-gradient(rgba(88, 124, 131, 0.6), rgba(88, 124, 131, 0.6)), url(../images/home-hero.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.hero h2 {
+  position: relative;
+  margin-left: 1200px;
+  margin-top: 220px;
+  font-family: SegoeUiBold;
+  font-size: 22px;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: lighter;
+}
+.hero p {
+  position: relative;
+  margin-left: 1200px;
+  margin-top: 20px;
+  font-family: SegoeUi;
+  font-weight: lighter;
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.book_boxes {
+  position: absolute;
+  width: 1600px;
+  height: 600px;
+  margin: 0 auto;
+  margin-top: 700px;
+  left: 80px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+.book_boxes .clusterOne {
+  position: relative;
+  height: 600px;
+  width: 400px;
+}
+.book_boxes .clusterOne .bk1 {
+  position: relative;
+  width: 220px;
+  height: 320px;
+  margin: 0 auto;
+  top: 30px;
+  background-image: url(../images/to-kill-a-mockingbird.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.book_boxes .clusterOne .desc1 {
+  position: relative;
+  width: 220px;
+  height: 100px;
+  top: 330px;
+}
+.book_boxes .clusterOne .desc1 p {
+  font-family: SegoeUi;
+  font-weight: lighter;
+  font-size: 10px;
+  text-align: center;
+}
+.book_boxes .clusterOne .p1 {
+  position: relative;
+  width: 98px;
+  height: 32px;
+  top: 340px;
+  left: 65px;
+}
+.book_boxes .clusterOne .p1 p {
+  font-family: SegoeUi;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+}
+.book_boxes .clusterOne button {
+  position: relative;
+  width: 168px;
+  height: 68px;
+  top: 360px;
+  left: 30px;
+}
+.book_boxes .clusterTwo {
+  height: 600px;
+  width: 400px;
+}
+.book_boxes .clusterTwo .bk2 {
+  position: relative;
+  width: 220px;
+  height: 320px;
+  margin: 0 auto;
+  top: 30px;
+  background-image: url(../images/becoming.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.book_boxes .clusterTwo .desc2 {
+  position: relative;
+  width: 220px;
+  height: 100px;
+  top: 330px;
+}
+.book_boxes .clusterTwo .desc2 p {
+  font-family: SegoeUi;
+  font-weight: lighter;
+  font-size: 10px;
+  text-align: center;
+}
+.book_boxes .clusterTwo .p2 {
+  position: relative;
+  width: 98px;
+  height: 32px;
+  top: 340px;
+  left: 65px;
+}
+.book_boxes .clusterTwo .p2 p {
+  font-family: SegoeUi;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+}
+.book_boxes .clusterTwo button {
+  position: relative;
+  width: 168px;
+  height: 68px;
+  top: 360px;
+  left: 30px;
+}
+.book_boxes .clusterThree {
+  height: 600px;
+  width: 400px;
+}
+.book_boxes .clusterThree .bk3 {
+  position: relative;
+  width: 220px;
+  height: 320px;
+  margin: 0 auto;
+  top: 30px;
+  background-image: url(../images/firestarter.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.book_boxes .clusterThree .desc3 {
+  position: relative;
+  width: 220px;
+  height: 100px;
+  top: 330px;
+}
+.book_boxes .clusterThree .desc3 p {
+  font-family: SegoeUi;
+  font-weight: lighter;
+  font-size: 10px;
+  text-align: center;
+}
+.book_boxes .clusterThree .p3 {
+  position: relative;
+  width: 98px;
+  height: 32px;
+  top: 340px;
+  left: 65px;
+}
+.book_boxes .clusterThree .p3 p {
+  font-family: SegoeUi;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+}
+.book_boxes .clusterThree button {
+  position: relative;
+  width: 168px;
+  height: 68px;
+  top: 360px;
+  left: 30px;
+}

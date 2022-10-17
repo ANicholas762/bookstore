@@ -1,0 +1,96 @@
+footer {
+  position: relative;
+  width: 100%;
+  height: 92px;
+  background-color: #587C83;
+  top: 1440px;
+}
+
+.copy {
+  position: relative;
+  width: 300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  top: 38px;
+  right: -60px;
+}
+.copy h2 {
+  font-family: SegoeUi;
+  font-size: 16px;
+  font-weight: lighter;
+  color: #fff;
+}
+
+.links {
+  position: relative;
+  width: 260px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  left: 740px;
+}
+.links a {
+  font-family: SegoeUi;
+  font-size: 16px;
+  color: #fff;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+.sm {
+  position: relative;
+  width: 240px;
+  height: 60px;
+  left: 1460px;
+  top: -40px;
+}
+.sm .bx {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.sm .bx .b1 {
+  width: 40px;
+  height: 40px;
+  margin-top: 10px;
+}
+.sm .bx .b1 img {
+  width: 40px;
+  height: 40px;
+}
+.sm .bx .b2 {
+  width: 40px;
+  height: 40px;
+  margin-top: 10px;
+}
+.sm .bx .b2 img {
+  width: 40px;
+  height: 40px;
+}
+.sm .bx .b3 {
+  width: 40px;
+  height: 40px;
+  margin-top: 10px;
+}
+.sm .bx .b3 img {
+  width: 40px;
+  height: 40px;
+}
